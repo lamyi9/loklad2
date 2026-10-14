@@ -1,0 +1,23 @@
+---
+import Star from '../components/icons/star.astro'
+ const {title,rating,url,thumbnail,category} = Astro.props;
+
+---
+<a href={url}>
+    <div class="group flex w-full max-w-80 rounded-2xl shadow-slate-400 shadow-sm items-start   bg-gray-700 hover:shadow-slate-500 ">
+        <div class="m-2.5 overflow-hidden rounded-2xl w-28  ">
+            
+            <img src={thumbnail} alt="profile-picture" />
+        </div>
+        <div class="w-full m-2.5 flex flex-col justify-center text-white  ">
+            <p class="text-md font-semibold pt-3 text-gray-100 group-hover:text-gray-300">{title}</p>
+            <div class="text-gray-400 flex justify-between w-full  ">
+                <p class="text-xs font-semibold ">{category}</p>
+                <p class="flex text-slate-400 text-sm">
+                    <Star/><span class="px-1">{rating}</span>
+                </p>
+            </div>
+            
+        </div>
+    </div>
+</a>

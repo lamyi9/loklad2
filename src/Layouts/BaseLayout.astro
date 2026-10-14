@@ -1,0 +1,29 @@
+---
+
+import BaseHead from "../components/BaseHead.astro";
+import Footer from "../components/Footer.astro";
+import Navbar from "../components/Navbar.astro";
+import Hero from "../components/Hero.astro";
+import TopPicks from "../components/TopPicks.astro";
+import TopPicksAndroid from "../components/TopPicksAndroid.astro";
+
+const {title,description,image,url,type} = Astro.props;
+
+---
+
+<html lang="en" class="scroll-smooth">
+<head>
+
+    <BaseHead {title} {description} {image} {url} {url}/>
+   
+</head>
+<body class="w-full bg-gray-900 relative scroll-smooth	 ">
+
+    <!-- <Navbar/> -->
+    
+   
+    <slot/>
+ <img src="LOKLAD.svg" alt="logo" class="fixed bottom-0 -z-0 blur-3xl opacity-15 animate-pulse ">
+    <Footer/>
+</body>
+</html>
