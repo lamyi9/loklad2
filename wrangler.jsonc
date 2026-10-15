@@ -1,0 +1,8 @@
+{
+  // ...
+  "vars": {
+    "NEXT_PUBLIC_TINA_CLIENT_ID": "f1489b58-d176-4cf0-a44f-07bd5b429db3",
+    "NODE_VERSION": "22.22.3"
+  },
+  // ...
+}
