@@ -13,7 +13,6 @@
     "@astrojs/cloudflare": "^13.5.0",
     "@astrojs/mdx": "^5.0.4",
     "@tailwindcss/vite": "^4.0.0",
-    "tailwindcss": "^4.0.0",
     "@tinacms/auth": "^1.1.2",
     "@videojs/themes": "^1.0.1",
     "astro": "^6.3.1",
@@ -22,13 +21,15 @@
     "next-tinacms-s3": "^21.0.5",
     "slate": "^0.124.1",
     "slate-dom": "^0.124.1",
+    "tailwindcss": "^4.0.0",
     "tinacms": "^3.7.5"
   },
   "devDependencies": {
     "@tailwindcss/forms": "^0.5.9",
     "@tinacms/cli": "^2.2.5",
     "@types/node": "^25.6.0",
-    "video.js": "^8.21.0"
+    "video.js": "^8.21.0",
+    "wrangler": "^4.151.0"
   },
   "pnpm": {
     "overrides": {
