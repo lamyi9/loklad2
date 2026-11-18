@@ -25,6 +25,10 @@ pnpm-debug.log*
 
 node_modules
 
-tina/__generated__/
 
 .wrangler
+# Sanity
+studio/node_modules
+studio/dist
+studio/.sanity
+public/cms/

@@ -1,6 +1,15 @@
 
 @import "tailwindcss";
 
+/* Tailwind v4 reads its theme from CSS. These used to sit in tailwind.config.js,
+   which v4 never loaded, so bg-brown and the Tibetan font-bo class did nothing. */
+@theme {
+  --color-brownDark: #944343;
+  --color-brown: #c55959;
+  --color-brownLight: #d48383;
+  --font-bo: 'bo', sans-serif;
+}
+
 @layer base {
 
   

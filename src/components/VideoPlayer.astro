@@ -19,3 +19,8 @@ const {video} = Astro.props
     Your browser does not support the video tag.
   </video>
 </div>
+
+<script>
+  // Bundled video.js (was loaded from vjs.zencdn.net on every page); sets up players with data-setup
+  import 'video.js';
+</script>

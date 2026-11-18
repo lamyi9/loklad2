@@ -22,7 +22,7 @@ const collectionAItems = mergedCollection.filter(item => item.data.windows);
     <div class="grid gap-5 grid-cols-1 sm:grid-cols-1 md:grid-cols-4 lg:grid-cols-4  pt-10 z-10 ">
         <!-- <CardSm/> -->
         <!-- {collectionAItems.map((item) => (
-            <CardSm title={item.data.title} rating={item.data.rating} url={`${item.data.collection}/${item.slug}`}/>
+            <CardSm title={item.data.title} rating={item.data.rating} url={`${item.data.collection}/${item.id}`}/>
           ))} -->
           {collectionAItems
             .filter((item) => item.data.rating > 4.3)

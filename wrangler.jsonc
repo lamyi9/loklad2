@@ -1,8 +1,11 @@
 {
   // ...
   "vars": {
-    "NEXT_PUBLIC_TINA_CLIENT_ID": "f1489b58-d176-4cf0-a44f-07bd5b429db3",
-    "NODE_VERSION": "22.22.3"
+    "NODE_VERSION": "22.22.3",
+    "PUBLIC_SANITY_PROJECT_ID": "ux81inem",
+    "PUBLIC_SANITY_DATASET": "production",
+    "S3_BUCKET": "loklad",
+    "S3_REGION": "us-east-1"
   },
   // ...
 }
